@@ -32,4 +32,21 @@ Git diff – is the difference between what I have in current working directory 
 Git restore – restore the file that have been changed
 Git commit –amend -m “change the message”  massages have to be well descriptive to be understand by others
 Git remote add origin <git link> add the repository to the git hub via command line
+************Branch****************
+     
+main branch it is by defalt 
 
+git branch -- will shou the nranch that you are in at the moment
+git branch -r to see all the remort branchess
+git branch -a -- check all brachies that you have
+git branch <name of the new branch> -- this is the way we create a branch
+git checkout <name of the branch that we want to swich>
+git checkout - -- this will check out to the previous branch
+git push --set-upstream origin <name of the branch> or git push -u origin -- this is the way we ate pushing the branch into the origin
+git checkout -b <new branch name> - creates a new branch and moves into that new branch
+git branch -d <name of the branch that we want to delete> - this is tha way to delete the branch we mast be in to the main branch
+
+merging into the branch
+     
+git merge <name of the branch that we want to mergi into the new branch or main> - this is a method that will merge into the branch
+git log --online -- this is checking online chagies
