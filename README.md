@@ -43,6 +43,10 @@ git branch <name of the new branch> -- this is the way we create a branch
 git checkout <name of the branch that we want to swich>
 git checkout - -- this will check out to the previous branch
 git push --set-upstream origin <name of the branch> or git push -u origin -- this is the way we ate pushing the branch into the origin
+git checkout -b <new branch name> - creates a new branch and moves into that new branch
+git branch -d <name of the branch that we want to delete> - this is tha way to delete the branch we mast be in to the main branch
 
+merging into the branch
      
-
+git merge <name of the branch that we want to mergi into the new branch or main> - this is a method that will merge into the branch
+git log --online -- this is checking online chagies
